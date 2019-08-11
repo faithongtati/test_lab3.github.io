@@ -1,0 +1,182 @@
+/*class*/
+.main {
+    font-size: 30px;
+    background-color: black;
+    margin: 0;   
+}
+
+.bavaria {
+    width: 15%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.home {
+    font-size: 30px;
+    background-color: white;
+    padding-bottom: 0;
+    
+}
+
+.home_content {
+    padding-top: 50px;
+}
+
+.home_left {
+    float: left;
+    font-family: 'gnuolane';
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.home_left_content{
+    float: left;
+    padding-left: 90px;
+}
+
+.home_middle_content {
+    padding-left: 200px;
+}
+
+.home_right_content {
+    padding-left: 180px;
+}
+
+/* food*/
+.read_more {
+    padding-top: 100px;
+    padding-bottom: 47px;
+    padding-left: 225px;
+}
+
+.p_head {
+    font-family: 'gnuolane';
+    font-size: 30px;
+    color: black;
+    padding-left: 30px;
+}
+.food{
+    background-color: #fffaeb;
+}
+
+.img_left {
+    float: left;
+}
+
+.img_right {
+    float: right;
+}
+
+.text_header {
+    padding-top: 100px;
+    font-size: 50px;
+    color: black;
+    font-family: 'gnuolane';
+}
+
+.text_content {
+    padding-top: 40px;
+    font-size: 30px;
+    color: gray;
+    font-family: 'gnuolane';
+}
+
+/* food1*/
+.text_header_food1 {
+    padding-top: 30px;
+    font-size: 40px;
+    color: black;
+    font-family: 'gnuolane';
+}
+
+.text_content_food1 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: gray;
+    font-family: 'gnuolane';
+}
+
+/*education*/
+
+.education {
+    background-color: #ede1b0;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.text_content_edu {
+    padding-top: 50px;
+    font-size: 40px;
+    color: gray;
+    font-family: 'gnuolane';
+}
+
+/* traditions*/
+
+.text_header_trad {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: black;
+    font-family: 'gnuolane';
+}
+
+.traditions {
+    background-color: #b2ebd1;
+}
+
+.center_img {
+    background-color: #b2ebd1;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+@font-face{
+    src: url(fonts/gnuolane rg.ttf);
+    font-family: 'gnuolane';
+}
+
+h1 {
+    color: aliceblue;
+    
+}
+
+/*design*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: cursive;
+    font-family: 'gnuolane';
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    padding-bottom: 15px;
+    color: yellow;
+
+}
+
+li a.active {
+    background-color: darkmagenta;
+    color: yellow;
+}
